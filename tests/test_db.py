@@ -1,6 +1,6 @@
 import unittest
 from flask import Flask, json
-from app import app, mongo
+from src.app import app, mongo
 
 class InventoryTestCase(unittest.TestCase):
 
